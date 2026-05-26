@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Medicine Finder</title>
+</head>
+<body>
+
+<body>
+
+<h2>💊 Medicine Finder</h2>
+
+<div class="container">
+  <input type="text" id="medicine" placeholder="Enter medicine name">
+  <button onclick="sendRequest()">Search</button>
+
+  <h3>Results:</h3>
+  <ul id="results"></ul>
+</div>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+<script src="app.js"></script>
+
+<script>
+loadResponses();
+</script>
+
+</body>
+
+</body>
+</html>
